@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Liza Udodenko](https://up.htmlacademy.ru/htmlcss/13/user/179293).
-* Наставник: `Неизвестно`.
+* Наставник: [Екатерина Климович](https://htmlacademy.ru/profile/id84950).
 
 ---
 
