@@ -3,10 +3,116 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+    <div class="container">
+      <header class="main-header">
+          <nav class="main-navigation">
+            <ul>
+              <li>
+                <a href="#">Информация</a>
+              </li>
+              <li>
+                <a href="#">Фото и видео</a>
+              </li>
+              <li>
+                <a href="#">Карта штата</a>
+              </li>
+              <li>
+                <a href="#">Гостиницы</a>
+              </li>
+            </ul>
+          </nav>
+          <img src="img/logo.png" width="138" height="70" alt="City of Sedona">
+      </header>
+      <main class="main">
+        <div class="main-picture">
+          <img src="img/index-page-picture.jpg" width="1200" height="509" alt="Sedona">
+          <img src="img/welcome.png" width="458" height="352" alt="Welcome to the Sedona">
+        </div>
+        <div class="main-summary">
+          <p class="summary-title">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
+          <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+        </div>
+        <div class="advantages-row">
+          <div class="advantages-item">
+            <div class="advantages-name">Настоящий городок</div>
+            <p class="advantages-description">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+          <img src="img/advantages-1.jpg" width="800" height="256" alt="Sedona View">
+        </div>
+        </div>
+        <ul class="features-list">
+          <li class="features-item">
+            <div class="features-name">Жилье</div>
+            <p class="features-description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </li>
+          <li class="features-item">
+            <div class="features-name">Еда</div>
+            <p class="features-description">Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
+          </li>
+          <li class="features-item">
+            <div class="features-name">Сувениры</div>
+            <p class="features-description">Не только китайского, но и местного производтсва!</p>
+          </li>
+        </ul>
+        <div class="advantages-row">
+          <img src="img/advantages-2.jpg" width="800" height="256" alt="Sedona View">
+          <div class="advantages-item">
+            <div class="advantages-name">Там есть Мост Дьявола</div>
+            <p class="advantages-description">Да, по нему можно пройти! Если, конечно, Вы осмелитесь</p>
+          </div>
+        </div>
+        <ul class="advantages-list">
+          <li class="advantages-list-item">
+            <div class="advantages-name">Небольшая площадь</div>
+            <p class="advantages-list-description">Все достопримечательности находятся очень близко</p>
+          </li>
+          <li class="advantages-list-item">
+            <div class="advantages-name">Красивая дорога</div>
+            <p class="advantages-list-description">Ехать в Седону за Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="advantages-list-item">
+            <div class="advantages-name">Мало туристов</div>
+            <p class="advantages-list-description">Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+        </ul>
+        <div class="map">
+          <img src="img/map.jpg" width="1200" height="593" alt="Map">
+        </div>
+        <div class="hotels-booking">
+          <h2>Заинтересовались?</h>
+          <p>Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
+          <div class="booking">Поиск гостиницы в Седоне</div>
+          <form class="booking-field" action="#" method="post">
+    <!--    <input ??? >
+            <input ??? >
+            <input ??? >
+            <button class="btn" type="submit">Найти</button>
+    <-->
+          </form>
+        </div>
+      </main>
+      <footer class="main-footer">
+          <div class="footer-tag">#VISITSEDONA</div>
+          <ul class="footer-social">
+            <li class="footer-social-icon">
+              <a class="social-btn social-btn-vk" href="#">Twitter</a>
+            </li>
+            <li class="footer-social-icon">
+              <a class="social-btn social-btn-fb" href="#">Facebook</a>
+            </li>
+            <li class="footer-social-icon">
+              <a class="social-btn social-btn-yt" href="#">Youtube</a>
+            </li>
+          </ul>
+          <div class="footer-copyright">
+            <div class="copyright">Website by</div>  <!--Тут может быть спан или нужен див? -->
+            <a class="btn" href="https://htmlacademy.ru">
+              <img src="img/copyright.png" width="113" height="39" alt="Website by https://htmlacademy.ru">
+            </a>
+          </div>
+      </footer>
+    </div>
   </body>
 </html>
