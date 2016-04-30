@@ -1,6 +1,26 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url("../fonts/ptsansbold.woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("../fonts/ptsans.woff");
+    font-weight: 300;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 300;
+}
+
 header {
   min-height: 56px;
   border: 1px solid black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 main {
