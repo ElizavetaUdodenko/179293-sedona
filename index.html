@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="container">
-      <header class="main-header">
+      <header class="main-header clearfix">
           <nav class="main-navigation">
             <ul>
               <li>
@@ -24,7 +24,9 @@
               </li>
             </ul>
           </nav>
-          <img src="img/logo.png" width="138" height="70" alt="City of Sedona">
+          <a href="#">
+            <img src="img/logo.png" width="138" height="70" alt="City of Sedona">
+          </a>
       </header>
       <main class="main">
         <div class="main-picture">
@@ -39,8 +41,8 @@
           <div class="advantages-item">
             <div class="advantages-name">Настоящий городок</div>
             <p class="advantages-description">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+          </div>
           <img src="img/advantages-1.jpg" width="800" height="256" alt="Sedona View">
-        </div>
         </div>
         <ul class="features-list">
           <li class="features-item">
@@ -77,24 +79,17 @@
             <p class="advantages-list-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
         </ul>
-        <div class="map">
-          <img src="img/map.jpg" width="1200" height="593" alt="Map">
-        </div>
-        <div class="hotels-booking">
+        <div class="hotels-booking"> <!-- я не поняла, что тут нужно сделать -->
           <h2>Заинтересовались?</h>
           <p>Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
           <div class="booking">Поиск гостиницы в Седоне</div>
-          <form class="booking-field" action="#" method="post">
-    <!--    <input ??? >
-            <input ??? >
-            <input ??? >
-            <button class="btn" type="submit">Найти</button>
-    <-->
-          </form>
+        </div>
+        <div class="map">
+          <img src="img/map.jpg" width="1200" height="593" alt="Map">
         </div>
       </main>
       <footer class="main-footer">
-          <div class="footer-tag">#VISITSEDONA</div>
+          <a class="footer-tag" href="#">#VISITSEDONA</a>
           <ul class="footer-social">
             <li class="footer-social-icon">
               <a class="social-btn social-btn-vk" href="#">Twitter</a>
